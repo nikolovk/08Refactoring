@@ -4,7 +4,6 @@ include '../inc/functions.php';
 const TemplatesPath = '../templates/';
 const LayoutPath = '../templates/layouts/';
 const ModelPath = '../models/';
-$page = '';
 if (isset($_GET['p'])) {
     switch ($_GET['p']) {
         case 'index':
